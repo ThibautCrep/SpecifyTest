@@ -1,0 +1,47 @@
+{
+    "repository": "@specifyapp/Light-Theme",
+    "rules": [
+        {
+            "name": "Design Tokens / Colors",
+            "path": "assets/styles/variables/colors.css",
+            "filter": {
+                "types": [
+                    "gradient",
+                    "color",
+                    "measurement",
+                    "shadow"
+                ]
+            },
+            "parsers": [
+                {
+                    "name": "sort-by",
+                    "options": {
+                        "keys": [
+                            "name"
+                        ]
+                    }
+                },
+                {
+                    "name": "to-css-custom-properties"
+                }
+            ]
+        },
+        {
+            "name": "Assets/Vector/Icons",
+            "path": "assets/icons",
+            "filter": {
+                "types": [
+                    "vector"
+                ]
+            },
+            "parsers": [
+                {
+                    "name": "name-assets-files-by-pattern",
+                    "options": {
+                        "pattern": "{{name}}-{{type}}.{{format}}"
+                    }
+                }
+            ]
+        }
+    ]
+}
