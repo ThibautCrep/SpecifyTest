@@ -46,11 +46,16 @@
   --design-tokens-viewer-token-background: rgb(50, 59, 72);
   --design-tokens-viewer-token-icon: rgb(179, 192, 208);
   --design-tokens-viewer-token-name: rgb(222, 228, 237);
+  --global-app-violet-base: rgb(98, 77, 227);
   --global-app-violet-dark: rgb(73, 56, 195);
+  --global-app-violet-light: rgb(138, 120, 238);
   --global-app-violet-lighter: rgb(231, 228, 251);
   --global-blue-base: rgb(17, 125, 249);
   --global-blue-lighter: rgb(219, 236, 254);
+  --global-green-base: rgb(88, 205, 82);
   --global-green-lighter: rgb(230, 247, 229);
+  --global-neutral-1: rgb(255, 255, 255);
+  --global-neutral-2: rgb(246, 248, 251);
   --global-neutral-3: rgb(222, 228, 237);
   --global-neutral-4: rgb(204, 213, 225);
   --global-neutral-5: rgb(179, 192, 208);
@@ -65,11 +70,6 @@
   --global-red-dark: rgb(219, 38, 44);
   --global-red-light: rgb(255, 113, 92);
   --global-red-lighter: rgb(254, 228, 226);
-  --global-app-violet-base: rgb(98, 77, 227);
-  --global-app-violet-light: rgb(138, 120, 238);
-  --global-green-base: rgb(88, 205, 82);
-  --global-neutral-1: rgb(255, 255, 255);
-  --global-neutral-2: rgb(246, 248, 251);
   --icon-default: rgb(120, 139, 165);
   --icon-disabled: rgb(204, 213, 225);
   --icon-error: rgb(245, 72, 63);
